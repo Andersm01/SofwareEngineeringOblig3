@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.x  # Velg ønsket Python-versjon
+        python-version: 3.11  # Velg ønsket Python-versjon
 
     - name: Install Dependencies
       run: |
