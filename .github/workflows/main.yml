@@ -12,8 +12,6 @@ jobs:
     steps:
     - name: Check Out Code
       uses: actions/checkout@v2
-      with:
-        path: .C:\Users\ander\Desktop\Software Engineering\Oblig3\SofwareEngineeringOblig3
 
     - name: Set up Python
       uses: actions/setup-python@v2
